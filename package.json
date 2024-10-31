@@ -1,0 +1,23 @@
+{
+  "name": "sever",
+  "version": "1.0.0",
+  "description": "first project fintech sever",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node --watch src/app.js"
+  },
+  "keywords": [
+    "FINAZ",
+    "FINTECH"
+  ],
+  "author": "ovie",
+  "license": "ISC",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.45.4",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.9.15"
+  }
+}
